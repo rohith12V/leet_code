@@ -1,3 +1,5 @@
+package Day_1_Binary_Search;
+
 import java.util.Arrays;
 
 /**
@@ -15,9 +17,9 @@ import java.util.Arrays;
  *                  when we find the element at mid then shift the left pointer to mid + 1;  [ mid+1 -> end ] ( new search )
  *  *
  */
-public class Lec34_Binary_Tree_First_Last_Positions {
+public class Lec34_First_Last_Positions {
     public static void main(String[] args) {
-        final Lec34_Binary_Tree_First_Last_Positions ob = new Lec34_Binary_Tree_First_Last_Positions();
+        final Lec34_First_Last_Positions ob = new Lec34_First_Last_Positions();
         System.out.println(Arrays.toString(ob.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8)));
         System.out.println(Arrays.toString(ob.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 6)));
         System.out.println(Arrays.toString(ob.searchRange(new int[]{1}, 6)));

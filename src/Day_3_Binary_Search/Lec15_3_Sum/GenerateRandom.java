@@ -1,4 +1,4 @@
-package three_sum;
+package Day_3_Binary_Search.Lec15_3_Sum;
 import java.util.ArrayList;
 import java.util.List;
 

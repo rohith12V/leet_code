@@ -1,3 +1,5 @@
+package Day_3_Binary_Search;
+
 public class Lec82_Remove_Duplicates_From_Sorted_LL {
     public ListNode deleteDuplicates(final ListNode head) {
         // 8 -> null
