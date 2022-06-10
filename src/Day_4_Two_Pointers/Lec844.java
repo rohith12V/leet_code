@@ -1,8 +1,7 @@
-package Day_4;
+package Day_4_Two_Pointers;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class Lec844 {
     public static boolean backspaceCompare(String s, String t) {

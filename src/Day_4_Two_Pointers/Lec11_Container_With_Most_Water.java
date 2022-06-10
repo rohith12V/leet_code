@@ -1,8 +1,8 @@
-package Day_4;
+package Day_4_Two_Pointers;
 
 /**
- * As we approach towards higher bars we may increase the area found so bar.
- * So, Our Greedy Approach will be shift current minimum pointer, so it may find a better solution.
+ * As we approach towards higher bars we may increase the area found so far.
+ * So, Our Greedy Approach will be keep shifting current minimum value pointer, so it may find a better solution.
  */
 public class Lec11_Container_With_Most_Water {
     public int maxArea(int[] height) {
