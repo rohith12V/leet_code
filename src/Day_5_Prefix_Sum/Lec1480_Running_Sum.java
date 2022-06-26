@@ -1,4 +1,4 @@
-package easy;
+package Day_5_Prefix_Sum;
 
 import java.util.Arrays;
 
