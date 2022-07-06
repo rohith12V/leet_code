@@ -6,10 +6,7 @@ public class Lec_142_Linked_List_Cycle_2 {
     ListNode two = new ListNode(2);
     one.next = two;
     two.next = one;
-    new Lec_142_Linked_List_Cycle_2()
-            .detectCycle(
-                  new ListNode(1)
-            );
+    new Lec_142_Linked_List_Cycle_2().detectCycle(new ListNode(1));
   }
 
   public ListNode detectCycle(ListNode head) {
@@ -22,7 +19,7 @@ public class Lec_142_Linked_List_Cycle_2 {
         break;
       }
     }
-    if (fastptr == null|| fastptr.next == null) {
+    if (fastptr == null || fastptr.next == null) {
       return null;
     }
 

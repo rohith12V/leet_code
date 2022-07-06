@@ -8,11 +8,15 @@ public class Lec217_Contains_Duplicate {
     System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV1(new int[] {1, 2, 3, 1}));
     System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV2(new int[] {1, 2, 3, 1}));
 
-      System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV1(new int[] {1,2,3,4}));
-      System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV2(new int[] {1,2,3,4}));
+    System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV1(new int[] {1, 2, 3, 4}));
+    System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV2(new int[] {1, 2, 3, 4}));
 
-      System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV1(new int[] {1,1,1,3,3,4,3,2,4,2}));
-      System.out.println(new Lec217_Contains_Duplicate().containsDuplicateV2(new int[] {1,1,1,3,3,4,3,2,4,2}));
+    System.out.println(
+        new Lec217_Contains_Duplicate()
+            .containsDuplicateV1(new int[] {1, 1, 1, 3, 3, 4, 3, 2, 4, 2}));
+    System.out.println(
+        new Lec217_Contains_Duplicate()
+            .containsDuplicateV2(new int[] {1, 1, 1, 3, 3, 4, 3, 2, 4, 2}));
   }
 
   // Space - O(1)

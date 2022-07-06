@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class Lec_26_Remove_Duplicates_From_Sorted_Array {
+  public static void main(String[] args) {
+    //
+  }
+
   public int removeDuplicates(int[] nums) {
     final HashSet<Integer> result = new LinkedHashSet<>();
     for (int num : nums) {
@@ -15,9 +19,5 @@ public class Lec_26_Remove_Duplicates_From_Sorted_Array {
       nums[i++] = integer;
     }
     return result.size();
-  }
-
-  public static void main(String[] args) {
-    //
   }
 }

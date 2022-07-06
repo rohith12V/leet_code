@@ -1,6 +1,7 @@
 public class Lec_19_Remove_nth_Node_From_LL {
   public static void main(String[] args) {
-    ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+    ListNode listNode =
+        new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
     listNode = new Lec_19_Remove_nth_Node_From_LL().removeNthFromEnd(listNode, 5);
   }
 

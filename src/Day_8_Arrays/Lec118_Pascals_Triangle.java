@@ -1,12 +1,14 @@
 package Day_8_Arrays;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Lec118_Pascals_Triangle {
 
-
+  public static void main(String[] args) {
+    List<List<Integer>> generate = new Lec118_Pascals_Triangle().generate(5);
+    System.out.println(generate);
+  }
 
   public List<List<Integer>> generate(int numRows) {
     final List<List<Integer>> result = new ArrayList<>();
@@ -33,11 +35,5 @@ public class Lec118_Pascals_Triangle {
       count++;
     }
     return result;
-  }
-
-  public static void main(String[] args) {
-    List<List<Integer>> generate = new Lec118_Pascals_Triangle().generate(5);
-    System.out.println(generate);
-
   }
 }

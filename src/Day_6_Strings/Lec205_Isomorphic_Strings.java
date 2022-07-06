@@ -26,10 +26,6 @@ public class Lec205_Isomorphic_Strings {
 /**
  * Case - 1 ( both are equal ) s -> dad t -> dad
  *
- * Case - 2 ( not equal ) s ->  bbbaaaba  t -> aaabbbba
- *                        sMap -> b -> a
- *                        s -> aaaaaaaa ( i = 0 1 2 )
- *                        sMap -> a -> b
- *                        s -> aaabbbab ( i = 3 4 5 )
- *                        s[6]  = a         t[6] = b  (
+ * <p>Case - 2 ( not equal ) s -> bbbaaaba t -> aaabbbba sMap -> b -> a s -> aaaaaaaa ( i = 0 1 2 )
+ * sMap -> a -> b s -> aaabbbab ( i = 3 4 5 ) s[6] = a t[6] = b (
  */

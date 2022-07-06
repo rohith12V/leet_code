@@ -1,6 +1,6 @@
-//package Day_6_Two_Pointers;
+// package Day_6_Two_Pointers;
 //
-//public class Lec977_Squares_Of_Sorted_Array {
+// public class Lec977_Squares_Of_Sorted_Array {
 //  public static void main(String[] args) {
 //    new Lec977_Squares_Of_Sorted_Array().sortedSquares(new int[]{
 //         -5, -3, -2, -1
@@ -29,4 +29,4 @@
 //    nums[low] = nums[high];
 //    nums[high] = temp;
 //  }
-//}
+// }
