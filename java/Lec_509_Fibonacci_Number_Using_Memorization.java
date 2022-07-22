@@ -1,7 +1,7 @@
-public class Lec_509_Fibonacci_Number {
+public class Lec_509_Fibonacci_Number_Memorization {
   public static void main(String[] args) {
     for (int i = 0; i < 31; i++) {
-      int e = new Lec_509_Fibonacci_Number().fibDP(i);
+      int e = new Lec_509_Fibonacci_Number_Memorization().fibDP(i);
       System.out.println(e);
     }
   }
